@@ -59,9 +59,9 @@ const ball = {
 
     size: ballSize,
 
-    dx: 6,
+    dx: 8,
 
-    dy: -6,
+    dy: -8,
 
     color: "black",
 };
@@ -210,9 +210,9 @@ const gameLoop = () => {
 
 document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowUp") {
-        playerRectangle.dy = -4;
+        playerRectangle.dy = -6;
     } else if (e.key === "ArrowDown") {
-        playerRectangle.dy = 4;
+        playerRectangle.dy = 6;
     }
 });
 
